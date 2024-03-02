@@ -26,7 +26,7 @@
 1. Clone the Repository:
 
    ```bash
-   git clone https://github.com/your-username/your-repository.git
+   git clone https://github.com/Azharul122/MERN-task-managements-with-firebase-authentication.git
    cd your-repository
 
 2. install all depedency:
