@@ -1,8 +1,43 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# MERN Task Management with firebase authentication
 
-Currently, two official plugins are available:
+- [Taecknologies](#Taecknologies)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Firebase Configuration](#firebase-configuration)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Taecknologies: 
+-  ReactJS
+-  NodeJS
+-  ExpressJS
+-  MongoDB database
+-  Firebase Authentication
+-  React Form
+-  Tanstack Query
+-  React Icon
+-  Tailwind CSS
+-  Sweetalart2
+## Deploy: Vercel
+
+## [Live Site](https://mern-task-managements-with-firebase-authentication.vercel.app/)
+
+## Installation:
+
+1. Clone the Repository:
+
+   ```bash
+   git clone https://github.com/your-username/your-repository.git
+   cd your-repository
+
+2. install all depedency:
+  ```bash
+   npm install
+
+3. Firebase Configeration(create .env.local file in root directory and add your firebase sensetive documents like):
+    FIREBASE_API_KEY=your_api_key
+    FIREBASE_AUTH_DOMAIN=your_auth_domain
+    FIREBASE_PROJECT_ID=your_project_id
+   
+4. Start dev server
+```bash
+   npm run dev
