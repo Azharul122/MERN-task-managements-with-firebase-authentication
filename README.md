@@ -25,17 +25,21 @@
 
 1. Clone the Repository:
 
- 
+   ```bash
    git clone https://github.com/your-username/your-repository.git
    cd your-repository
 
 2. install all depedency:
-  npm install
+
+ ```bash
+ npm install
 
 3. Firebase Configeration(create .env.local file in root directory and add your firebase sensetive documents like):
+    ```bash
     FIREBASE_API_KEY=your_api_key
     FIREBASE_AUTH_DOMAIN=your_auth_domain
     FIREBASE_PROJECT_ID=your_project_id
    
 4. Start dev server
+   ```bash
    npm run dev
