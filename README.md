@@ -31,9 +31,10 @@
 
 2. install all depedency:
   ```bash
-   npm install
+  npm install
 
 3. Firebase Configeration(create .env.local file in root directory and add your firebase sensetive documents like):
+   ```bash
     FIREBASE_API_KEY=your_api_key
     FIREBASE_AUTH_DOMAIN=your_auth_domain
     FIREBASE_PROJECT_ID=your_project_id
