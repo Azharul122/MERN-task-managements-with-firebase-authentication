@@ -30,14 +30,18 @@
    cd your-repository
 
 2. install all depedency:
+```bash
  npm install
+```
 
 3. Firebase Configuration:
 Create a .env.local file in the root directory and add your Firebase sensitive documents:
-
+```bash
     FIREBASE_API_KEY=your_api_key
     FIREBASE_AUTH_DOMAIN=your_auth_domain
     FIREBASE_PROJECT_ID=your_project_id
-   
+   ```
 4. Start dev server
+   ```bash
    npm run dev
+```
