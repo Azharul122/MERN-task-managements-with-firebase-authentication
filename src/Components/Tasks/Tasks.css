@@ -1,0 +1,19 @@
+
+.spin{
+    animation: spin ;
+    animation-timing-function: linear;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    
+}
+.spin:hover{
+    
+}
+.plus:hover .spin{
+    animation-iteration-count: 0;
+    content: "Add Task";
+}
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
